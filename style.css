@@ -1,3 +1,4 @@
+/* Style général */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -81,5 +82,17 @@ header h1 {
 
 .presentation button:hover {
     background-color: #16a085;
+}
+
+/* Responsivité */
+@media (max-width: 768px) {
+    .navbar ul{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .presentation {
+        padding: 30px 10px;
+    }
 }
 
